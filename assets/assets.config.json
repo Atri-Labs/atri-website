@@ -1,0 +1,23 @@
+{
+  "logo.svg": {
+    "mime": "image/svg+xml"
+  },
+  "Account circle.svg": {
+    "mime": "image/svg+xml"
+  },
+  "github logo.svg": {
+    "mime": "image/svg+xml"
+  },
+  "slack.svg": {
+    "mime": "image/svg+xml"
+  },
+  "search_atri_gallery.svg": {
+    "mime": "image/svg+xml"
+  },
+  "gallery_background.png": {
+    "mime": "image/png"
+  },
+  "atri_A.svg": {
+    "mime": "image/svg+xml"
+  }
+}
