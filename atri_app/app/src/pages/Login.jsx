@@ -7,7 +7,7 @@ import {fetchPageProps} from "../utils/fetchPageProps"
 import { Image as Image1 } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
 import { TextBox as TextBox1 } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
 import { Flex as Flex1 } from "@atrilabs/react-component-manifests/src/manifests/Flex/Flex.tsx";
-import { useImage6Cb, useImage7Cb, useImage8Cb, useTextBox7Cb, useTextBox8Cb, useTextBox9Cb, useImage9Cb, useFlex14Cb, useFlex15Cb, useFlex16Cb, useFlex17Cb, useFlex18Cb } from "../page-cbs/login";
+import { useImage6Cb, useImage7Cb, useImage8Cb, useTextBox7Cb, useTextBox8Cb, useTextBox9Cb, useImage9Cb, useFlex18Cb, useImage11Cb, useImage12Cb, useImage13Cb, useTextBox12Cb, useTextBox13Cb, useTextBox14Cb, useImage14Cb, useFlex20Cb, useFlex21Cb, useFlex22Cb, useFlex23Cb } from "../page-cbs/login";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -60,37 +60,59 @@ const TextBox9Cb = useTextBox9Cb()
 const Image9Props = useStore((state)=>state["login"]["Image9"]);
 const Image9IoProps = useIoStore((state)=>state["login"]["Image9"]);
 const Image9Cb = useImage9Cb()
-const Flex14Props = useStore((state)=>state["login"]["Flex14"]);
-const Flex14IoProps = useIoStore((state)=>state["login"]["Flex14"]);
-const Flex14Cb = useFlex14Cb()
-const Flex15Props = useStore((state)=>state["login"]["Flex15"]);
-const Flex15IoProps = useIoStore((state)=>state["login"]["Flex15"]);
-const Flex15Cb = useFlex15Cb()
-const Flex16Props = useStore((state)=>state["login"]["Flex16"]);
-const Flex16IoProps = useIoStore((state)=>state["login"]["Flex16"]);
-const Flex16Cb = useFlex16Cb()
-const Flex17Props = useStore((state)=>state["login"]["Flex17"]);
-const Flex17IoProps = useIoStore((state)=>state["login"]["Flex17"]);
-const Flex17Cb = useFlex17Cb()
 const Flex18Props = useStore((state)=>state["login"]["Flex18"]);
 const Flex18IoProps = useIoStore((state)=>state["login"]["Flex18"]);
 const Flex18Cb = useFlex18Cb()
+const Image11Props = useStore((state)=>state["login"]["Image11"]);
+const Image11IoProps = useIoStore((state)=>state["login"]["Image11"]);
+const Image11Cb = useImage11Cb()
+const Image12Props = useStore((state)=>state["login"]["Image12"]);
+const Image12IoProps = useIoStore((state)=>state["login"]["Image12"]);
+const Image12Cb = useImage12Cb()
+const Image13Props = useStore((state)=>state["login"]["Image13"]);
+const Image13IoProps = useIoStore((state)=>state["login"]["Image13"]);
+const Image13Cb = useImage13Cb()
+const TextBox12Props = useStore((state)=>state["login"]["TextBox12"]);
+const TextBox12IoProps = useIoStore((state)=>state["login"]["TextBox12"]);
+const TextBox12Cb = useTextBox12Cb()
+const TextBox13Props = useStore((state)=>state["login"]["TextBox13"]);
+const TextBox13IoProps = useIoStore((state)=>state["login"]["TextBox13"]);
+const TextBox13Cb = useTextBox13Cb()
+const TextBox14Props = useStore((state)=>state["login"]["TextBox14"]);
+const TextBox14IoProps = useIoStore((state)=>state["login"]["TextBox14"]);
+const TextBox14Cb = useTextBox14Cb()
+const Image14Props = useStore((state)=>state["login"]["Image14"]);
+const Image14IoProps = useIoStore((state)=>state["login"]["Image14"]);
+const Image14Cb = useImage14Cb()
+const Flex20Props = useStore((state)=>state["login"]["Flex20"]);
+const Flex20IoProps = useIoStore((state)=>state["login"]["Flex20"]);
+const Flex20Cb = useFlex20Cb()
+const Flex21Props = useStore((state)=>state["login"]["Flex21"]);
+const Flex21IoProps = useIoStore((state)=>state["login"]["Flex21"]);
+const Flex21Cb = useFlex21Cb()
+const Flex22Props = useStore((state)=>state["login"]["Flex22"]);
+const Flex22IoProps = useIoStore((state)=>state["login"]["Flex22"]);
+const Flex22Cb = useFlex22Cb()
+const Flex23Props = useStore((state)=>state["login"]["Flex23"]);
+const Flex23IoProps = useIoStore((state)=>state["login"]["Flex23"]);
+const Flex23Cb = useFlex23Cb()
 
   return (<>
-  <Flex1 {...Flex18Props} {...Flex18Cb} {...Flex18IoProps}/>
-<Flex1 {...Flex17Props} {...Flex17Cb} {...Flex17IoProps}>
-<Flex1 {...Flex16Props} {...Flex16Cb} {...Flex16IoProps}>
-<Image1 {...Image9Props} {...Image9Cb} {...Image9IoProps}/>
-<TextBox1 {...TextBox9Props} {...TextBox9Cb} {...TextBox9IoProps}/>
+  <Flex1 {...Flex18Props} {...Flex18Cb} {...Flex18IoProps}>
+<Flex1 {...Flex23Props} {...Flex23Cb} {...Flex23IoProps}>
+<Flex1 {...Flex22Props} {...Flex22Cb} {...Flex22IoProps}>
+<Image1 {...Image14Props} {...Image14Cb} {...Image14IoProps}/>
+<TextBox1 {...TextBox14Props} {...TextBox14Cb} {...TextBox14IoProps}/>
 </Flex1>
-<Flex1 {...Flex15Props} {...Flex15Cb} {...Flex15IoProps}>
-<TextBox1 {...TextBox8Props} {...TextBox8Cb} {...TextBox8IoProps}/>
-<TextBox1 {...TextBox7Props} {...TextBox7Cb} {...TextBox7IoProps}/>
+<Flex1 {...Flex21Props} {...Flex21Cb} {...Flex21IoProps}>
+<TextBox1 {...TextBox13Props} {...TextBox13Cb} {...TextBox13IoProps}/>
+<TextBox1 {...TextBox12Props} {...TextBox12Cb} {...TextBox12IoProps}/>
 </Flex1>
-<Flex1 {...Flex14Props} {...Flex14Cb} {...Flex14IoProps}>
-<Image1 {...Image8Props} {...Image8Cb} {...Image8IoProps}/>
-<Image1 {...Image7Props} {...Image7Cb} {...Image7IoProps}/>
-<Image1 {...Image6Props} {...Image6Cb} {...Image6IoProps}/>
+<Flex1 {...Flex20Props} {...Flex20Cb} {...Flex20IoProps}>
+<Image1 {...Image13Props} {...Image13Cb} {...Image13IoProps}/>
+<Image1 {...Image12Props} {...Image12Cb} {...Image12IoProps}/>
+<Image1 {...Image11Props} {...Image11Cb} {...Image11IoProps}/>
+</Flex1>
 </Flex1>
 </Flex1>
   </>);
