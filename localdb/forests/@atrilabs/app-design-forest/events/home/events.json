@@ -4335,10 +4335,11 @@
           "flexDirection": "column",
           "alignItems": "center",
           "rowGap": "30px",
-          "paddingTop": "40px",
-          "paddingBottom": "40px",
+          "paddingTop": "80px",
+          "paddingBottom": "80px",
           "backgroundImage": "url(\"/app-assets/gallery_background.png\")",
-          "marginTop": "60px"
+          "marginTop": "60px",
+          "marginBottom": ""
         }
       }
     },
@@ -9313,7 +9314,7 @@
               "navigate": {
                 "type": "external",
                 "url": "https://join.slack.com/t/atricommunity/shared_invite/zt-1eknbzcr4-djA4sBU0d55Vw4pFkfc23A",
-                "target": "_blank"
+                "target": "_self"
               }
             }
           ]
@@ -9744,7 +9745,10 @@
     "slice": {
       "property": {
         "styles": {
-          "height": "2px"
+          "height": "32px",
+          "position": "fixed",
+          "right": 20,
+          "bottom": 20
         }
       }
     },
@@ -9881,5 +9885,63 @@
       }
     },
     "id": "da052463-5cc9-4199-96c7-45f48ae82308"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "navigate": {
+                "type": "external",
+                "url": "https://join.slack.com/t/atricommunity/shared_invite/zt-1eknbzcr4-djA4sBU0d55Vw4pFkfc23A",
+                "target": "_self"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "id": "1a98ed12-d94e-4762-995f-e8fb0c94d204"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "navigate": {
+                "type": "internal",
+                "url": "/login"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "id": "933274f3-dbd4-4ffa-a9e4-d49dc80edf43"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "navigate": {
+                "type": "internal",
+                "url": "/login"
+              }
+            },
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    },
+    "id": "933274f3-dbd4-4ffa-a9e4-d49dc80edf43"
   }
 ]

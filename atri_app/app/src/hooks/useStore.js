@@ -212,6 +212,7 @@ const desktopModeProps = {
       }
     },
     "Image1": {
+      "onClick": false,
       "styles": {
         "alignSelf": "auto",
         "flexGrow": "0",
@@ -303,6 +304,7 @@ const desktopModeProps = {
       }
     },
     "Image2": {
+      "onClick": false,
       "styles": {
         "alignSelf": "auto",
         "flexGrow": "0",
@@ -349,6 +351,7 @@ const desktopModeProps = {
       }
     },
     "Image3": {
+      "onClick": false,
       "styles": {
         "alignSelf": "auto",
         "flexGrow": "0",
@@ -395,6 +398,7 @@ const desktopModeProps = {
       }
     },
     "Image4": {
+      "onClick": false,
       "styles": {
         "alignSelf": "auto",
         "flexGrow": "0",
@@ -721,6 +725,7 @@ const desktopModeProps = {
       }
     },
     "Image5": {
+      "onClick": false,
       "styles": {
         "alignSelf": "auto",
         "flexGrow": "0",
@@ -809,7 +814,8 @@ const desktopModeProps = {
         "zIndex": ""
       },
       "custom": {
-        "value": ""
+        "value": "",
+        "placeholder": "Search Computer Vision apps"
       }
     },
     "Flex7": {
@@ -1200,6 +1206,7 @@ const desktopModeProps = {
       }
     },
     "Image15": {
+      "onClick": false,
       "styles": {
         "alignSelf": "auto",
         "flexGrow": "0",
@@ -1248,6 +1255,7 @@ const desktopModeProps = {
   },
   "login": {
     "Image6": {
+      "onClick": false,
       "styles": {
         "alignSelf": "auto",
         "flexGrow": "0",
@@ -1294,6 +1302,7 @@ const desktopModeProps = {
       }
     },
     "Image7": {
+      "onClick": false,
       "styles": {
         "alignSelf": "auto",
         "flexGrow": "0",
@@ -1340,6 +1349,7 @@ const desktopModeProps = {
       }
     },
     "Image8": {
+      "onClick": false,
       "styles": {
         "alignSelf": "auto",
         "flexGrow": "0",
@@ -1521,6 +1531,7 @@ const desktopModeProps = {
       }
     },
     "Image9": {
+      "onClick": false,
       "styles": {
         "alignSelf": "auto",
         "flexGrow": "0",
@@ -1617,6 +1628,7 @@ const desktopModeProps = {
       }
     },
     "Image11": {
+      "onClick": false,
       "styles": {
         "alignSelf": "auto",
         "flexGrow": "0",
@@ -1663,6 +1675,7 @@ const desktopModeProps = {
       }
     },
     "Image12": {
+      "onClick": false,
       "styles": {
         "alignSelf": "auto",
         "flexGrow": "0",
@@ -1709,6 +1722,7 @@ const desktopModeProps = {
       }
     },
     "Image13": {
+      "onClick": false,
       "styles": {
         "alignSelf": "auto",
         "flexGrow": "0",
@@ -1890,6 +1904,7 @@ const desktopModeProps = {
       }
     },
     "Image14": {
+      "onClick": false,
       "styles": {
         "alignSelf": "auto",
         "flexGrow": "0",

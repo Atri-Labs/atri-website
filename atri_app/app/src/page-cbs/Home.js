@@ -17,24 +17,86 @@ export function useNavbarRightCb() {
 	return {  }
 }
 export function useImage1Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("Image1", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox1Cb() {
 
 	return {  }
 }
 export function useImage2Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("Image2", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "https://join.slack.com/t/atricommunity/shared_invite/zt-1eknbzcr4-djA4sBU0d55Vw4pFkfc23A",
+        "target": "_self"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useImage3Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("Image3", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "https://github.com/Atri-Labs",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useImage4Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("Image4", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/login"
+      }
+    },
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox2Cb() {
 
@@ -61,8 +123,20 @@ export function useFlex6Cb() {
 	return {  }
 }
 export function useImage5Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("Image5", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useInput1Cb() {
 	const onChange = useCallback(callbackFactory("Input1", "Home", "/", "onChange", 
@@ -137,6 +211,18 @@ export function useTextBox10Cb() {
 	return {  }
 }
 export function useImage15Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("Image15", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }

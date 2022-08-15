@@ -81,7 +81,7 @@ class Atri:
 			self.src: str = get_defined_value(state, def_state, "src")
 	class __Image6Class:
 		def __init__(self, state, def_state):
-
+			self.onClick = False
 			self.styles: Atri.__Image6ClassstylesClass = Atri._Atri__Image6ClassstylesClass(get_defined_value(state, def_state, "styles"), def_state["styles"])
 			self.custom: Atri.__Image6ClasscustomClass = Atri._Atri__Image6ClasscustomClass(get_defined_value(state, def_state, "custom"), def_state["custom"])
 	class __Image7ClassstylesClass:
@@ -132,7 +132,7 @@ class Atri:
 			self.src: str = get_defined_value(state, def_state, "src")
 	class __Image7Class:
 		def __init__(self, state, def_state):
-
+			self.onClick = False
 			self.styles: Atri.__Image7ClassstylesClass = Atri._Atri__Image7ClassstylesClass(get_defined_value(state, def_state, "styles"), def_state["styles"])
 			self.custom: Atri.__Image7ClasscustomClass = Atri._Atri__Image7ClasscustomClass(get_defined_value(state, def_state, "custom"), def_state["custom"])
 	class __Image8ClassstylesClass:
@@ -183,7 +183,7 @@ class Atri:
 			self.src: str = get_defined_value(state, def_state, "src")
 	class __Image8Class:
 		def __init__(self, state, def_state):
-
+			self.onClick = False
 			self.styles: Atri.__Image8ClassstylesClass = Atri._Atri__Image8ClassstylesClass(get_defined_value(state, def_state, "styles"), def_state["styles"])
 			self.custom: Atri.__Image8ClasscustomClass = Atri._Atri__Image8ClasscustomClass(get_defined_value(state, def_state, "custom"), def_state["custom"])
 	class __TextBox7ClassstylesClass:
@@ -384,7 +384,7 @@ class Atri:
 			self.src: str = get_defined_value(state, def_state, "src")
 	class __Image9Class:
 		def __init__(self, state, def_state):
-
+			self.onClick = False
 			self.styles: Atri.__Image9ClassstylesClass = Atri._Atri__Image9ClassstylesClass(get_defined_value(state, def_state, "styles"), def_state["styles"])
 			self.custom: Atri.__Image9ClasscustomClass = Atri._Atri__Image9ClasscustomClass(get_defined_value(state, def_state, "custom"), def_state["custom"])
 	class __Flex18ClassstylesClass:
@@ -488,7 +488,7 @@ class Atri:
 			self.src: str = get_defined_value(state, def_state, "src")
 	class __Image11Class:
 		def __init__(self, state, def_state):
-
+			self.onClick = False
 			self.styles: Atri.__Image11ClassstylesClass = Atri._Atri__Image11ClassstylesClass(get_defined_value(state, def_state, "styles"), def_state["styles"])
 			self.custom: Atri.__Image11ClasscustomClass = Atri._Atri__Image11ClasscustomClass(get_defined_value(state, def_state, "custom"), def_state["custom"])
 	class __Image12ClassstylesClass:
@@ -539,7 +539,7 @@ class Atri:
 			self.src: str = get_defined_value(state, def_state, "src")
 	class __Image12Class:
 		def __init__(self, state, def_state):
-
+			self.onClick = False
 			self.styles: Atri.__Image12ClassstylesClass = Atri._Atri__Image12ClassstylesClass(get_defined_value(state, def_state, "styles"), def_state["styles"])
 			self.custom: Atri.__Image12ClasscustomClass = Atri._Atri__Image12ClasscustomClass(get_defined_value(state, def_state, "custom"), def_state["custom"])
 	class __Image13ClassstylesClass:
@@ -590,7 +590,7 @@ class Atri:
 			self.src: str = get_defined_value(state, def_state, "src")
 	class __Image13Class:
 		def __init__(self, state, def_state):
-
+			self.onClick = False
 			self.styles: Atri.__Image13ClassstylesClass = Atri._Atri__Image13ClassstylesClass(get_defined_value(state, def_state, "styles"), def_state["styles"])
 			self.custom: Atri.__Image13ClasscustomClass = Atri._Atri__Image13ClasscustomClass(get_defined_value(state, def_state, "custom"), def_state["custom"])
 	class __TextBox12ClassstylesClass:
@@ -791,7 +791,7 @@ class Atri:
 			self.src: str = get_defined_value(state, def_state, "src")
 	class __Image14Class:
 		def __init__(self, state, def_state):
-
+			self.onClick = False
 			self.styles: Atri.__Image14ClassstylesClass = Atri._Atri__Image14ClassstylesClass(get_defined_value(state, def_state, "styles"), def_state["styles"])
 			self.custom: Atri.__Image14ClasscustomClass = Atri._Atri__Image14ClasscustomClass(get_defined_value(state, def_state, "custom"), def_state["custom"])
 	class __Flex20ClassstylesClass:
