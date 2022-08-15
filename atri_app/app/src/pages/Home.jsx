@@ -10,7 +10,7 @@ import { TextBox } from "@atrilabs/react-component-manifests/src/manifests/TextB
 import { Input } from "@atrilabs/react-component-manifests/src/manifests/Input/Input.tsx";
 import { Dropdown } from "@atrilabs/react-component-manifests/src/manifests/Dropdown/Dropdown.tsx";
 import { Button } from "@atrilabs/react-component-manifests/src/manifests/Button/Button.tsx";
-import { useNavbarCb, useNavbarLeftCb, useNavbarCenterCb, useNavbarRightCb, useImage1Cb, useTextBox1Cb, useImage2Cb, useImage3Cb, useImage4Cb, useTextBox2Cb, useTextBox3Cb, useFlex5Cb, useTextBox4Cb, useTextBox5Cb, useFlex6Cb, useImage5Cb, useInput1Cb, useFlex7Cb, useFlex8Cb, useDropdown1Cb, useButton1Cb, useFlex9Cb, useTextBox6Cb, useNavbarWrapperCb, useTextBox10Cb, useFlex19Cb, useImage10Cb, useTextBox11Cb } from "../page-cbs/Home";
+import { useNavbarCb, useNavbarLeftCb, useNavbarCenterCb, useNavbarRightCb, useImage1Cb, useTextBox1Cb, useImage2Cb, useImage3Cb, useImage4Cb, useTextBox2Cb, useTextBox3Cb, useFlex5Cb, useTextBox4Cb, useTextBox5Cb, useFlex6Cb, useImage5Cb, useInput1Cb, useFlex7Cb, useFlex8Cb, useDropdown1Cb, useButton1Cb, useFlex9Cb, useTextBox6Cb, useNavbarWrapperCb, useTextBox10Cb, useImage15Cb } from "../page-cbs/Home";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -117,15 +117,9 @@ const NavbarWrapperCb = useNavbarWrapperCb()
 const TextBox10Props = useStore((state)=>state["Home"]["TextBox10"]);
 const TextBox10IoProps = useIoStore((state)=>state["Home"]["TextBox10"]);
 const TextBox10Cb = useTextBox10Cb()
-const Flex19Props = useStore((state)=>state["Home"]["Flex19"]);
-const Flex19IoProps = useIoStore((state)=>state["Home"]["Flex19"]);
-const Flex19Cb = useFlex19Cb()
-const Image10Props = useStore((state)=>state["Home"]["Image10"]);
-const Image10IoProps = useIoStore((state)=>state["Home"]["Image10"]);
-const Image10Cb = useImage10Cb()
-const TextBox11Props = useStore((state)=>state["Home"]["TextBox11"]);
-const TextBox11IoProps = useIoStore((state)=>state["Home"]["TextBox11"]);
-const TextBox11Cb = useTextBox11Cb()
+const Image15Props = useStore((state)=>state["Home"]["Image15"]);
+const Image15IoProps = useIoStore((state)=>state["Home"]["Image15"]);
+const Image15Cb = useImage15Cb()
 
   return (<>
   <Flex {...NavbarWrapperProps} {...NavbarWrapperCb} {...NavbarWrapperIoProps}>
@@ -163,9 +157,6 @@ const TextBox11Cb = useTextBox11Cb()
 <TextBox {...TextBox6Props} {...TextBox6Cb} {...TextBox6IoProps}/>
 <TextBox {...TextBox10Props} {...TextBox10Cb} {...TextBox10IoProps}/>
 </Flex>
-<Flex {...Flex19Props} {...Flex19Cb} {...Flex19IoProps}>
-<Image {...Image10Props} {...Image10Cb} {...Image10IoProps}/>
-<TextBox {...TextBox11Props} {...TextBox11Cb} {...TextBox11IoProps}/>
-</Flex>
+<Image {...Image15Props} {...Image15Cb} {...Image15IoProps}/>
   </>);
 }

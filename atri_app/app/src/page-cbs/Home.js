@@ -136,15 +136,7 @@ export function useTextBox10Cb() {
 
 	return {  }
 }
-export function useFlex19Cb() {
-
-	return {  }
-}
-export function useImage10Cb() {
-
-	return {  }
-}
-export function useTextBox11Cb() {
+export function useImage15Cb() {
 
 	return {  }
 }
