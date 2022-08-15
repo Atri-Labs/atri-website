@@ -13,7 +13,7 @@ export default function Login() {
   const navigate = useNavigate();
   useEffect(() => {
     const unsub = subscribeInternalNavigation((url) => {
-      navigate(url, { replace: true });
+      navigate(url);
     });
     return unsub;
   }, [navigate]);
