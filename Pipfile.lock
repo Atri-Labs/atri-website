@@ -119,11 +119,11 @@
         },
         "atri": {
             "hashes": [
-                "sha256:a15a5cfe6175b77377e3243b09ebd8dd3346a5232b1fd9913b4bc69756d78757",
-                "sha256:ec731bd89512a8977297a79683b55c65a2fbf1010d98acbee8f578ef2b884f70"
+                "sha256:8d4a3875b14ad165eff4de31b7716b266754e88fa69f7b3111e17258fc495049",
+                "sha256:de730287411a92bf3cadc83c85d186e0a023e80ea43320d52c5710b8412e4b15"
             ],
             "index": "pypi",
-            "version": "==0.0.42"
+            "version": "==0.0.43"
         },
         "attrs": {
             "hashes": [
