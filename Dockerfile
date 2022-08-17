@@ -19,5 +19,6 @@ ENV LC_ALL C.UTF-8
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONFAULTHANDLER 1
 RUN PIPENV_VENV_IN_PROJECT=1 pipenv install
+RUN chown -R python_user /home/python_user
 USER python_user
 CMD ["/home/python_user/start.sh"]
