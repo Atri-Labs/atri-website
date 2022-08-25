@@ -22,5 +22,20 @@
   },
   "made-with-atri.svg": {
     "mime": "image/svg+xml"
+  },
+  "example_app_pic.webp": {
+    "mime": "image/webp"
+  },
+  "eye.svg": {
+    "mime": "image/svg+xml"
+  },
+  "Screen Shot 2022-08-25 at 11.52 1.png": {
+    "mime": "image/png"
+  },
+  "Screen Shot 2022-08-25 at 11.50 1.png": {
+    "mime": "image/png"
+  },
+  "Screen Shot 2022-08-25 at 11.53 1.png": {
+    "mime": "image/png"
   }
 }
