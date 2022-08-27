@@ -9,6 +9,7 @@ fastapi = "*"
 uvicorn = "*"
 jsonpickle = "*"
 python-multipart = "*"
+atri-utils = "*"
 
 [dev-packages]
 

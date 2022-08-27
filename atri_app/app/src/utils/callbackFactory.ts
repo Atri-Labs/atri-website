@@ -1,6 +1,7 @@
 import useStore, { updateStoreStateFromController } from "../hooks/useStore";
 import useIoStore from "../hooks/useIoStore";
 import { navigateExternally, navigateInternally } from "./navigate";
+import { handleRedirection } from "./handleRedirection";
 
 export type NavigationCallbackHandler = {
   type: "internal" | "external";
@@ -52,6 +53,7 @@ function sendEventDataFn(
       pageState,
     }),
   })
+    .then((res) => handleRedirection(res))
     .then((res) => res.json())
     .then((res) => {
       console.log("got res", res);
@@ -69,7 +71,6 @@ function sendEventInFormDataFn(
   // information required to access file from useIoStore
   filesMetadata: { alias: string; selector: string[] }[]
 ) {
-  console.log("sendEventInFormData:", eventData);
   const pageState = useStore.getState()[pageName];
   const formdata = new FormData();
   formdata.set("alias", alias);
@@ -121,11 +122,11 @@ function sendEventInFormDataFn(
     method: "POST",
     body: formdata,
   })
+    .then((res) => handleRedirection(res))
     .then((res) => res.json())
     .then((res) => {
-      console.log("got res", res);
-      if (res && res["pageState"]) {
-        updateStoreStateFromController(pageName, res["pageState"]);
+      if (res) {
+        updateStoreStateFromController(pageName, res);
       }
     });
 }

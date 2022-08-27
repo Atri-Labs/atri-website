@@ -20,7 +20,7 @@ export default function Login() {
 
   const location = useLocation();
   useLayoutEffect(()=>{
-    fetchPageProps(location.pathname).then((res)=>{
+    fetchPageProps(location.pathname, location.search).then((res)=>{
       updateStoreStateFromController(res.pageName, res.pageState)
     })
   }, [])

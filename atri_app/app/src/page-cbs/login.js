@@ -49,16 +49,52 @@ export function useImage8Cb() {
 	return { onClick }
 }
 export function useTextBox7Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox7", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox8Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox8", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox9Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox9", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useImage9Cb() {
 	const onClick = useCallback(callbackFactory("Image9", "login", "/login", "onClick", 
@@ -133,16 +169,52 @@ export function useImage13Cb() {
 	return { onClick }
 }
 export function useTextBox12Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox12", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox13Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox13", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox14Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox14", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useImage14Cb() {
 	const onClick = useCallback(callbackFactory("Image14", "login", "/login", "onClick", 
@@ -217,16 +289,52 @@ export function useImage18Cb() {
 	return { onClick }
 }
 export function useTextBox15Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox15", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox16Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox16", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox17Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox17", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useImage19Cb() {
 	const onClick = useCallback(callbackFactory("Image19", "login", "/login", "onClick", 
@@ -261,16 +369,52 @@ export function useImage20Cb() {
 	return { onClick }
 }
 export function useTextBox18Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox18", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox19Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox19", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox20Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox20", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useImage21Cb() {
 	const onClick = useCallback(callbackFactory("Image21", "login", "/login", "onClick", 
@@ -345,16 +489,52 @@ export function useImage24Cb() {
 	return { onClick }
 }
 export function useTextBox21Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox21", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox22Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox22", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox23Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox23", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useImage25Cb() {
 	const onClick = useCallback(callbackFactory("Image25", "login", "/login", "onClick", 
@@ -469,16 +649,52 @@ export function useImage30Cb() {
 	return { onClick }
 }
 export function useTextBox24Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox24", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox25Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox25", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox26Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox26", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useImage31Cb() {
 	const onClick = useCallback(callbackFactory("Image31", "login", "/login", "onClick", 
@@ -553,16 +769,52 @@ export function useImage34Cb() {
 	return { onClick }
 }
 export function useTextBox27Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox27", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox28Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox28", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useTextBox29Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("TextBox29", "login", "/login", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useImage35Cb() {
 	const onClick = useCallback(callbackFactory("Image35", "login", "/login", "onClick", 
@@ -581,22 +833,62 @@ export function useImage35Cb() {
 	return { onClick }
 }
 export function useFlex42Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("Flex42", "login", "/login", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useFlex43Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("Flex43", "login", "/login", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useFlex44Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("Flex44", "login", "/login", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useFlex45Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("Flex45", "login", "/login", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
 export function useFlex46Cb() {
-
-	return {  }
+	const onClick = useCallback(callbackFactory("Flex46", "login", "/login", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
 }
