@@ -1,11 +1,11 @@
 {
-  "Flex": 80,
-  "Image": 55,
-  "TextBox": 51,
+  "Flex": 87,
+  "Image": 56,
+  "TextBox": 57,
   "Link": 2,
-  "Input": 1,
+  "Input": 3,
   "Dropdown": 1,
-  "Button": 1,
+  "Button": 2,
   "Accordion": 1,
   "Menu": 2
 }
